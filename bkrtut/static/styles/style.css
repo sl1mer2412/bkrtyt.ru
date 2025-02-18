@@ -1,0 +1,76 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(135,115,13,1) 61%, rgba(214,215,0,1) 100%);
+}
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 50;
+}
+p {
+    font-size: 14;
+    font-family:"Shafarik", serif;
+}
+p1 {
+    font-family: "Delicious Handrawn", serif;
+}
+.call-anim{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.footer-text {
+    color:black;
+    margin: auto auto;
+}
+footer {
+    background: linear-gradient(90deg, rgb(146, 146, 146) 0%, rgba(135,115,13,1) 61%, rgba(214,215,0,1) 100%);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
